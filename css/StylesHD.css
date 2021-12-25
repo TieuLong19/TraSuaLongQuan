@@ -337,3 +337,29 @@ img {vertical-align: middle;}
     font-family: Tahoma;
 
  }
+ .product-price-old {
+    font-family: 'Noto Serif', serif;
+    text-decoration: line-through;
+    font-size: 20px;
+    color: #acacac;
+    line-height: 18px;
+    font-weight: 400;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.sale_count {
+    position: relative;
+    z-index: 8;
+    display: inline-block;
+    width: 45px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 0px 0px;
+    background: #f8452d;
+    color: #fff;
+    font-family: 'Noto Serif', serif;
+    font-size: 12px;
+}
