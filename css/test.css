@@ -3,7 +3,7 @@ background-color: #f5f5f5
 }
 .badge.new {
     background-color: #0C713D;
-    right: 100px;
+    right: 30px;
 }
 .badge {
     color: #fff;
@@ -14,6 +14,26 @@ background-color: #f5f5f5
     top: 20px;
     font-size: 10px;
 }
+.itial:hover{
+    position: relative;
+    display: block;
+    border-bottom: 2px solid black;
+    text-decoration: none;
+    margin: 5px;
+    margin-bottom: 10px;
+    transition: 0.5s;
+  }
+  
+.itial a:hover{
+    position: relative;
+		display: block;
+        text-decoration: none;
+        color: rgb(211, 224, 24);
+        transition: 0.5s;
+
+}
+
+
 .related a{
     background-color: transparent;
     color: black;
@@ -36,3 +56,4 @@ background-color: #f5f5f5
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 }
+
