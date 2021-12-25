@@ -39,7 +39,7 @@ body{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .snip1582 {
-  background-color: #c47135;
+  background-color: #0C713D !important;
   border: none;
   color: #ffffff;
   cursor: pointer;
@@ -70,22 +70,22 @@ body{
 }
 
 .snip1582:before {
-  border-color: #c47135;
+  border-color: #0C713D !important;
   border-top-width: 2px;
   left: 0px;
   top: -5px;
 }
 
 .snip1582:after {
-  border-bottom-width: 2px;
-  border-color: #c47135;
+    border-bottom-width: 2px;
+  border-color: #0C713D !important;
   bottom: -5px;
   right: 0px;
 }
 
 .snip1582:hover,
 .snip1582.hover {
-  background-color: #c47135;
+  background-color: #0C713D !important;;
 }
 
 .snip1582:hover:before,

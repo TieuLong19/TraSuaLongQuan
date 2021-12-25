@@ -3,7 +3,7 @@ background-color: #f5f5f5
 }
 .badge.new {
     background-color: #0C713D;
-    right: 30px;
+    right: 10px;
 }
 .badge {
     color: #fff;
@@ -12,7 +12,7 @@ background-color: #f5f5f5
     padding: 5px 8px;
     position: absolute;
     top: 20px;
-    font-size: 10px;
+    font-size: 15px;
 }
 .itial:hover{
     position: relative;
