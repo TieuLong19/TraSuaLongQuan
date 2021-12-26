@@ -400,3 +400,57 @@ img {vertical-align: middle;}
     font-family:'Baloo 2', cursive !important;
     font-weight: bold;
 }
+
+.snip1583 {
+    background-color: white !important;
+    border-radius: 10px;
+    border: #0C713D solid 2px;
+    color:#0C713D;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Courier New;
+    font-size: 1em;
+    font-size: 14px;
+    line-height: 1em;
+    margin: 15px 40px;
+    outline: none;
+    padding: 12px 40px 10px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .snip1583:before,
+  .snip1583:after {
+    border-color: transparent;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+    border-style: solid;
+    border-width: 0;
+    content: "";
+    height: 14px;
+    position: absolute;
+    width: 14px;
+  }
+  
+
+  
+  .snip1583:hover,
+  .snip1583.hover {
+      color: white;
+    background-color:#0C713D !important;
+    text-decoration: none;
+  }
+  
+  .snip1583:hover:before,
+  .snip1583.hover:before,
+  .snip1583:hover:after,
+  .snip1583.hover:after {
+    height: 100%;
+    width: 100%;
+  }
+.title {
+    line-height: normal;
+    margin: 0 0 50px;
+    color: black;
+}
