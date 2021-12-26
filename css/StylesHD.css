@@ -39,9 +39,10 @@ body{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .snip1582 {
-  background-color: #0C713D !important;
-  border: none;
-  color: #ffffff;
+  background-color: white !important;
+  border-radius: 10px;
+  border: #0C713D solid 2px;
+  color:#0C713D;
   cursor: pointer;
   display: inline-block;
   font-family: Courier New;
@@ -72,12 +73,14 @@ body{
 .snip1582:before {
   border-color: #0C713D !important;
   border-top-width: 2px;
+  color: white;
   left: 0px;
   top: -5px;
 }
 
 .snip1582:after {
     border-bottom-width: 2px;
+    color: white;
   border-color: #0C713D !important;
   bottom: -5px;
   right: 0px;
@@ -85,7 +88,8 @@ body{
 
 .snip1582:hover,
 .snip1582.hover {
-  background-color: #0C713D !important;;
+    color: white;
+  background-color:#0C713D !important;;
 }
 
 .snip1582:hover:before,
