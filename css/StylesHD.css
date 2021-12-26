@@ -382,12 +382,12 @@ img {vertical-align: middle;}
     flex-direction: column;
     align-items: center;
 }
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 .text-2 {
     font-size: 50px;
     text-align: center;
     color: #000000;
-    font-family:'Baloo 2', cursive !important;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 1.8px;
     text-transform: uppercase;
     margin-bottom: 0 !important;
@@ -395,9 +395,9 @@ img {vertical-align: middle;}
 }
  .text-1 {
     color: #d3b673;
-    font-size: 22px;
+    font-size: 30px;
     margin-bottom: 5px;
-    font-family:'Baloo 2', cursive !important;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
 
@@ -453,4 +453,54 @@ img {vertical-align: middle;}
     line-height: normal;
     margin: 0 0 50px;
     color: black;
+}
+
+
+
+/*          */
+
+.howtobuy {
+    background: #fff;
+    text-align: center;
+    padding: 40px 20px 60px;
+}
+
+.howtobuy ul li {
+    font-size: 24px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.d-inline-block {
+    display: inline-block!important;
+}
+
+ul li, ol li {
+    list-style: none;
+}
+.howtobuy ul li.arr {
+    vertical-align: middle;
+    padding: 0 20px;
+    margin-bottom: 50px;
+}
+
+
+
+.howtobuy ul li img {
+    max-width: 150px;
+}
+.howtobuy ul li img {
+    max-width: 100%;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+user agent stylesheet
+ul {
+    list-style-type: disc;
 }
