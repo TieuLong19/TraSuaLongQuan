@@ -504,3 +504,34 @@ user agent stylesheet
 ul {
     list-style-type: disc;
 }
+
+.title-1 {
+    font-size: 36px;
+    margin: 30px 0;
+    display: inline-block;
+    padding: 20px 40px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    position: relative;
+    margin-bottom: 50px;
+    text-align: center!important;
+    text-transform: uppercase;
+}
+.title-1:after {
+    right: 5px;
+}
+.title-1:before {
+    left: 5px;
+}
+.title-1:before, .title-1:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #e3c383;
+    position: absolute;
+    top: 35px;
+    content: "";
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
