@@ -224,6 +224,7 @@ a:link{
 .snip1582 {
   background-color: #c47135;
   border: none;
+  border-radius: 10px;
   color: #ffffff;
   cursor: pointer;
   display: inline-block;

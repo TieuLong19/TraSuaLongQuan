@@ -367,3 +367,35 @@ img {vertical-align: middle;}
     font-family: 'Noto Serif', serif;
     font-size: 12px;
 }
+
+.icon-bottom-title {
+    display: block;
+    background: url(https://tocotocotea.com/wp-content/themes/tocotocotea/assets/images/home_line.webp) no-repeat center;
+    text-align: center;
+    width: 315px;
+    height: 30px;
+    
+    
+}
+.section-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-2 {
+    font-size: 50px;
+    text-align: center;
+    color: #000000;
+    font-family: "BalooExtra" !important;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    margin-bottom: 0 !important;
+    padding: 0 50px;
+}
+ .text-1 {
+    color: #d3b673;
+    font-size: 22px;
+    margin-bottom: 5px;
+    font-family: Muli, sans-serif;
+    font-weight: bold;
+}
